@@ -4,6 +4,22 @@ body * {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.blog-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121619;
+  height: 206px;
+}
+.blog-footer__logo {
+  width: 81px;
+  height: auto;
+}
+
 h1 {
   color: red;
 }
